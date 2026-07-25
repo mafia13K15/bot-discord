@@ -7,7 +7,7 @@ const {
 // ════════════════════════════════════════════════
 //  ⚙️  CONFIG — modifie uniquement cette section
 // ════════════════════════════════════════════════
-const TOKEN          = 'MTUxMjg3ODM1MzM3MDA1ODk2Mw.GfBwFL.HQlPg8nnhGoSYsIu2O4pOVts_LLddilKZ5UkBc';
+const TOKEN = process.env.TOKEN;
 const PREFIX         = '!';
 const TWITCH_USER    = 'kazzix_chill';
 const TIKTOK_USER    = 'kazzix_chill';
