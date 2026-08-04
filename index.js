@@ -33,7 +33,7 @@ if (fs.existsSync('./config.json')) {
   config.roles_moderation = config.roles_moderation || [];
 } else {
   config = {
-    token: "MTIz...VRAI_TOKEN_ICI",   // <-- VOTRE TOKEN ICI
+    token: process.env.TOKEN,   // <-- VOTRE TOKEN ICI
     prefix: "!",
     logs: {},                          // guildId -> salon de logs
     welcome: {},                       // guildId -> salon de bienvenue
